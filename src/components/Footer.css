@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footerbox {
+  background-color: darkcyan;
+  padding: 20px; /* Add padding for spacing */
+}
+
+.upperfooter {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+#explorecol, #supportcol, #contactcol {
+  flex-basis: calc(33.33% - 300px); /* Set the width for each column, considering the padding */
+  margin-bottom: 20px; /* Add margin for spacing between columns */
+}
+
+#explorecol {
+  margin-left: 20px;
+}
+#contactcol {
+  margin-right: 0; 
+}
+
+#contactcol h2 {
+  margin-right: 20px;
+}
+
+#logo1,
+#logo2,
+#logo3 {
+  width: 30px;
+  height: 30px;
+}
+
+.logos {
+  margin-top: 8px; /* Adjust the top margin */
+  display: flex; /* Make the icons display horizontally */
+  gap: 10px; /* Add spacing between icons */
+}
+
+ol li {
+  list-style: none;
+  text-align: justify;
+}
+
+.lowerfooter {
+  background-color: darkcyan;
+  text-align: center; /* Center align text on smaller screens */
+}
+
+.lowerfooter span {
+  margin-left: 10px;
+  display: block; /* Display spans as blocks on smaller screens */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .upperfooter {
+    flex-direction: column; /* Stack columns on top of each other for smaller screens */
+  }
+
+  #explorecol, #supportcol, #contactcol {
+    flex-basis: 100%; /* Make each column take full width on smaller screens */
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

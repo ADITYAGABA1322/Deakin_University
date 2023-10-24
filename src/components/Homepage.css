@@ -1,0 +1,7 @@
+.mainimage{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    margin-bottom: 40px;
+}

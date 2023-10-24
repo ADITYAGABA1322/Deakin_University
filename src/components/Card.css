@@ -1,0 +1,47 @@
+/* ArticleCard.css */
+
+.card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin: 0;
+    padding: 10px 0;
+    color: #333;
+  }
+  
+  .badge-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .badge {
+    background-color: #f44336;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .accordion-body {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin: 10px 0;
+    }
+  }
+  

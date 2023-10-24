@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.postbutton{
+    margin-top: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: rgb(207, 207, 207);
+}

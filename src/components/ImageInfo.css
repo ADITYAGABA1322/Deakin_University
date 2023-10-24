@@ -1,0 +1,36 @@
+.img-card {
+  background-color: #f0f0f0; /* Set the background color of the card */
+  border: 1px solid #ddd; /* Add a border for separation */
+  border-radius: 10px; /* Round the corners */
+  padding: 10px; /* Add some padding for spacing */
+  margin: 10px; /* Add margin to separate cards */
+  flex: 0 0 calc(33.33% - 20px); /* Limit each card to 33.33% width with spacing */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  text-align: center;
+  overflow: hidden; /* Hide overflow content */
+}
+
+#imgtitle {
+  font-size: 1.5rem; /* Set font size for title */
+}
+
+#description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  margin: 10px 0;
+}
+
+#name {
+  font-weight: bold; /* Make the name text bold */
+}
+
+/* Media Query for screens larger than 768px */
+@media (min-width: 768px) {
+  .img-card {
+    flex: 0 0 calc(33.33% - 20px); /* Limit each card to 33.33% width with spacing */
+  }
+}
+

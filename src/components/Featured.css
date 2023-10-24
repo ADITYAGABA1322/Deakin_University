@@ -1,0 +1,34 @@
+.featured-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#featuretitle {
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#featurebutton {
+  border-radius: 90px;
+  color: rgb(1, 1, 1);
+  background-color: rgba(207, 207, 207, 0.432);
+  width: 120px;
+  margin-top: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  #featuretitle {
+    margin-left: 0;
+  }
+  #featurebutton {
+    margin-left: 0;
+  }
+}

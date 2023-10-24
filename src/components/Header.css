@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    background-color: rgba(57, 57, 73, 0.432);
+    height: 40px;
+
+}
+#title{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    word-spacing: 5px;
+}
+#searchinput{
+    margin-left: 60px;
+    margin-right: 60px;   
+    width: 1000px;
+    height: 30px;
+}
+#postbutton{
+  border: 0px;
+  background-color: rgba(57, 57, 73, 0.432);
+  margin-right: 10px;
+  background: none;
+}
+#loginbutton{
+    border: 0px;
+    background-color: rgba(57, 57, 73, 0.432);
+    background: none;
+}
+.navbar{
+    margin-top: 10px;
+margin-bottom: 60px;
+
+}
