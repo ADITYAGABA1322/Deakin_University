@@ -30,6 +30,13 @@ export default function Filter(props) {
         //   console.log(filteredData );
        await  props.setQuestions(filteredData);
     }
+       const handleRemove=async()=>{
+        setTitle('')
+        setDate('')
+        setTag('')
+        const data= await GetQuestions();
+        await  props.setQuestions(data);       
+    }
  
   return (
         
